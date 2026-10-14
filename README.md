@@ -37,4 +37,4 @@ NEXT_PUBLIC_BASE_PATH=/fitlog-website npm run build
 
 The repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml`. Push to `main` (or run the workflow manually) to export the static site and deploy it to GitHub Pages. The workflow prefixes app routes and local assets for `https://ratul-dev-28.github.io/fitlog-website/`.
 
-In the GitHub repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Workout details are exported as static routes for all 12 API entries; unknown routes use the generated 404 page.
+Workout details are exported as static routes for all 12 API entries; unknown routes use the generated 404 page.
